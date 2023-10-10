@@ -16,7 +16,7 @@ Additionally, the image files in the images directory are generated via the anal
 
 ## Considerations
 
-If generating the data via the pageview.ipynb file, one should take into consideration the time it takes to run. It took my notebook over 10 minutes to run to completion. Another consideration is that the mobile data is a combination of mobile app and web views.
+If generating the data via the pasgeview.ipynb file, one should take into consideration the time it takes to run. It took my notebook over 10 minutes to run to completion. Another consideration is that the mobile data is a combination of mobile app and web views.
 
 ## Installation
 
@@ -32,6 +32,10 @@ Now, it is necessary to download the proper environment. Please make sure you ha
 ```bash
 conda env create -n <your-environment-name> -f environment.yml
 ```
+
+## Usage
+
+The pageview.ipynb file utilizes the Wikimedia API to collect information for files in thank_the_academy.AUG.2023.csv. The analysis.ipynb loads the data generated from the previous file and creates visualizations for analysis.
 
 ## License
 
