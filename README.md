@@ -10,13 +10,13 @@ This analysis uses the wikimedia API which terms of use can be accessed [here](h
 
 ## Intermediary Files
 
-The code in this repository was used to generate the academy_monthly_cumulative_201507-202309.json, academy_monthly_desktop_201507-202309.json, academy_monthly_mobile_201507-202309.json data files which are used in the analysis. Additionally, the image files in the images directory are generated via the analysis.ipynb file.
+The code in this repository was used to generate the academy_monthly_cumulative_201507-202309.json, academy_monthly_desktop_201507-202309.json, academy_monthly_mobile_201507-202309.json data files which are used in the analysis. For all these files the fields are project, article, granularity, timestamp, agent, and views. Project should always be en.wikipedia, article is the name of the academy award article, granularity will be the duration of the data collection which is month in this case, timestamp represents the month of interest, agent will always be user, and views represents the number of views for the specified article.
+
+Additionally, the image files in the images directory are generated via the analysis.ipynb file.
 
 ## Considerations
 
 If generating the data via the pageview.ipynb file, one should take into consideration the time it takes to run. It took my notebook over 10 minutes to run to completion. Another consideration is that the mobile data is a combination of mobile app and web views.
-
-In my analysis, I found that...
 
 ## Installation
 
